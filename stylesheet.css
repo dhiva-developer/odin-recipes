@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 20px 0 60px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: #E5E7EB;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.hero-content {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 20px 0;
+}
+
+.cta-button {
+  background-color: #3882F6;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.hero-image {
+  background-color: #6B7280;
+  width: 500px;
+  height: 220px;
+  color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* INFO SECTION */
+.info-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.info-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 40px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.info-box {
+  width: 150px;
+  text-align: center;
+}
+
+.illustration {
+  width: 100%;
+  height: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+/* QUOTE SECTION */
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 60px 20px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-section blockquote {
+  max-width: 800px;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.quote-section footer {
+  font-style: normal;
+  font-weight: 700;
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* CTA BANNER */
+.cta-banner {
+  background-color: #3882F6;
+  color: white;
+  padding: 40px 20px;
+  margin: 60px auto;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cta-content h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.cta-content p {
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+
+.cta-content .cta-button {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
